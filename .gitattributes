@@ -1,0 +1,19 @@
+# Auto normalize line endings
+* text=auto
+
+# Specify line endings for specific file types
+*.csv text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+
+# Binary files
+*.xlsx binary
+*.xls binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
